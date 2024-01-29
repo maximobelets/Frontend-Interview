@@ -6,6 +6,10 @@ The main idea of this project is to find a short answer with an example on an in
 
 ## JS tasks!
 
-`const checkPalindrome = (string) => string.split("").reverse().join("") === string;`
+#### Palindrome
 
-`checkPalindrome('level') // true`
+```
+const checkPalindrome = (string) => string.split("").reverse().join("") === string;
+
+checkPalindrome('level') // true
+```
