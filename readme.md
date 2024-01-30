@@ -6,7 +6,11 @@ The main idea of this project is to find a short answer with an example on an in
 
 ## Theory
 
-JS has 7 primitive data types: `String`, `Number`, `Boolean`, `Symbol`, `Null`, `Undefined`, `BigImnt`
+#### Data types
+
+JS has 8 data types: `String`, `Number`, `Boolean`, `Symbol`, `Null`, `Undefined`, `BigImnt`, `Object`
+
+All of these are primitive except `Object`
 
 ## JS tasks!
 
