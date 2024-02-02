@@ -12,6 +12,10 @@ JS has 8 data types: `String`, `Number`, `Boolean`, `Symbol`, `Null`, `Undefined
 
 All of these are primitive except `Object`
 
+#### String methods
+
+substring | const string = '_Hello World_', string.substring(1, string.length -1) // Hello World
+
 ## JS tasks!
 
 #### Palindrome
