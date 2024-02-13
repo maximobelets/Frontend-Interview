@@ -6,6 +6,28 @@ The main idea of this project is to find a short answer with an example on an in
 
 ## Theory
 
+#### HTTP Request
+
+Methods
+
+GET - for taking data from the server.
+
+HEAD - the same GET request but without body part.
+
+POST - this request sends a data to the server.
+
+PUT - for replace data by request data.
+
+DELETE - for delete some data.
+
+OPTIONS - for getting the server information. For example, all supported methods.
+
+PATCH - ?
+
+TRACE - ?
+
+CONNECT - ?
+
 #### Data types
 
 JS has 8 data types: `String`, `Number`, `Boolean`, `Symbol`, `Null`, `Undefined`, `BigImnt`, `Object`
