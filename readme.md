@@ -16,17 +16,17 @@ HEAD - the same GET request but without body part.
 
 POST - this request sends a data to the server.
 
-PUT - for replace data by request data.
+PUT - for replace all data by request data.
 
 DELETE - for delete some data.
 
 OPTIONS - for getting the server information. For example, all supported methods.
 
-PATCH - ?
+PATCH - for change a piece of data.
 
-TRACE - ?
+TRACE - for diagnostic, debugging connection.
 
-CONNECT - ?
+CONNECT - for creation a two-way tunnel with a server. 
 
 #### Data types
 
