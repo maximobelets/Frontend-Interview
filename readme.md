@@ -47,3 +47,11 @@ const checkPalindrome = (string) => string.split("").reverse().join("") === stri
 
 checkPalindrome('level') // true
 ```
+
+#### Remove duplicates from an array
+
+```
+const removeDuplicates = (arr) => arr.filter((item, index) => arr.indexOf(item) === index);
+
+removeDuplicates(['A', 'B', 'C', 'A']) // ['A', 'B', 'C']
+```
