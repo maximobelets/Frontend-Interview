@@ -55,3 +55,11 @@ const removeDuplicates = (arr) => arr.filter((item, index) => arr.indexOf(item) 
 
 removeDuplicates(['A', 'B', 'C', 'A']) // ['A', 'B', 'C']
 ```
+
+## TypeScript
+
+#### Basic types
+
+const testString: string = 'typescript';
+const number: number = 1;
+const trueOrFalse: boolean = true;
