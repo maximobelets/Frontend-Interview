@@ -61,5 +61,7 @@ removeDuplicates(['A', 'B', 'C', 'A']) // ['A', 'B', 'C']
 #### Basic types
 
 const testString: string = 'typescript';
+
 const number: number = 1;
+
 const trueOrFalse: boolean = true;
