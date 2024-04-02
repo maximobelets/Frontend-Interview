@@ -65,3 +65,9 @@ const testString: string = 'typescript';
 const number: number = 1;
 
 const trueOrFalse: boolean = true;
+
+#### Array types
+
+const arr: Array<number> = [1, 2, 3];
+
+const arr: string[] = ['test', 'string'];
