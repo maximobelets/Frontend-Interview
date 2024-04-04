@@ -71,3 +71,11 @@ const trueOrFalse: boolean = true;
 const arr: Array<number> = [1, 2, 3];
 
 const arr: string[] = ['test', 'string'];
+
+#### Function type
+
+```
+const getCar = (model: string, year: number): string => `Model: ${model}, Year: ${year}`
+
+removeDuplicates(['A', 'B', 'C', 'A']) // ['A', 'B', 'C']
+```
