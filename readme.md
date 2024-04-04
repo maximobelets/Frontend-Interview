@@ -75,7 +75,5 @@ const arr: string[] = ['test', 'string'];
 #### Function type
 
 ```
-const getCar = (model: string, year: number): string => `Model: ${model}, Year: ${year}`
-
-removeDuplicates(['A', 'B', 'C', 'A']) // ['A', 'B', 'C']
+const getCar = (model: string, year: number): string => `Model: ${model}, Year: ${year}`;
 ```
