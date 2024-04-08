@@ -77,3 +77,19 @@ const arr: string[] = ['test', 'string'];
 ```
 const getCar = (model: string, year: number): string => `Model: ${model}, Year: ${year}`;
 ```
+
+#### How to unite types
+
+```
+type Car = {
+    model: string;
+    year: number;
+}
+
+type isNewCar = {
+    isNewCar: boolean
+};
+
+const testCar: Car & isNewCar = { model: 'TestCar', year: 1994, isNewCar: false }
+
+```
