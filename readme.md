@@ -78,6 +78,29 @@ const arr: string[] = ['test', 'string'];
 const getCar = (model: string, year: number): string => `Model: ${model}, Year: ${year}`;
 ```
 
+#### enum
+
+```
+const enum Languages {
+    JavaScript = 'js',
+    TypeScript = 'ts',
+    Java = 'java',
+}
+
+interface IDeveloper {
+    role: string,
+    language: Languages
+}
+
+const developer: IDeveloper = {
+    role: 'developer',
+    language: Languages.TypeScript
+}
+
+console.log(developer) // {role: "developer", language: "ts"}
+
+```
+
 #### How to unite types
 
 ```
