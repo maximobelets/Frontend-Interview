@@ -66,6 +66,28 @@ const number: number = 1;
 
 const trueOrFalse: boolean = true;
 
+#### Readonly type
+
+```
+interface IBook {
+    book: string,
+    readonly pages: number
+}
+
+const testBook: IBook = {
+  book: 'Test Book',
+  pages: 100,
+}
+
+testBook.pages = 200; // Cannot assign to 'pages' because it is a read-only property
+```
+
+const testString: string = 'typescript';
+
+const number: number = 1;
+
+const trueOrFalse: boolean = true;
+
 #### Array types
 
 const arr: Array<number> = [1, 2, 3];
