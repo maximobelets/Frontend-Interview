@@ -131,3 +131,25 @@ type isNewCar = {
 const testCar: Car & isNewCar = { model: 'TestCar', year: 1994, isNewCar: false }
 
 ```
+
+#### Generics
+
+```
+
+const genericFunc = <T>(data: T): T => {
+    return data
+}
+
+genericFunc<number>(123)
+
+interface ICar<M, Y> {
+    model: M,
+    year: Y,
+}
+
+const testCar: ICar<string, number> = {
+    model: 'TestCar',
+    year: 1994,
+}
+
+```
