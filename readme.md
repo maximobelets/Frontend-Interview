@@ -156,7 +156,7 @@ const testCar: ICar<string, number> = {
 
 #### Utility Types
 
-### Omit
+### Omit, Pick
 
 ```
 
@@ -168,9 +168,15 @@ interface ICar {
 
 interface ITestCar extends Omit<ICar, 'isNewCar'> {}
 
+interface ICarModel extends Pick<ICar, 'model'> {}
+
 const car: ITestCar = {
     model: 'testCar',
     year: 1994,
+}
+
+const car: ICarModel = {
+    model: 'testCar',
 }
 
 ```
