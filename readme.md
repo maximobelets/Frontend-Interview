@@ -156,7 +156,7 @@ const testCar: ICar<string, number> = {
 
 #### Utility Types
 
-### Omit, Pick
+### Omit, Pick, Record
 
 ```
 
@@ -169,6 +169,12 @@ interface ICar {
 interface ITestCar extends Omit<ICar, 'isNewCar'> {}
 
 interface ICarModel extends Pick<ICar, 'model'> {}
+
+interface ICarModel extends Partial<ICar> {} // To make all types optional
+
+interface ICarModel extends Required<ICar> {} // To make all types required
+
+type TypeTestCarRecord = Record<'model' | 'year', string | number>
 
 const car: ITestCar = {
     model: 'testCar',
