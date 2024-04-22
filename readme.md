@@ -6,6 +6,12 @@ The main idea of this project is to find a short answer with an example on an in
 
 ## Theory
 
+### Computer Science
+
+### Data structures
+
+Array, Stack, Queue, Graph, Linked List and more.
+
 #### HTTP Request
 
 Methods
