@@ -62,6 +62,13 @@ const removeDuplicates = (arr) => arr.filter((item, index) => arr.indexOf(item) 
 removeDuplicates(['A', 'B', 'C', 'A']) // ['A', 'B', 'C']
 ```
 
+#### Find the sum of an array of numbers
+
+```
+[1, 1, 2, 3].reduce((acc, val) => acc + val) // 7
+
+```
+
 ## TypeScript
 
 #### Basic types
