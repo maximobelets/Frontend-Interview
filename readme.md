@@ -40,6 +40,15 @@ JS has 8 data types: `String`, `Number`, `Boolean`, `Symbol`, `Null`, `Undefined
 
 All of these are primitive except `Object`
 
+#### Maths operations
+
+How to know do wo have remainder from division, use % operator
+
+```
+console.log(5 % 2) // 1
+console.log(4 % 2) // 0
+```
+
 #### String methods
 
 substring | const string = '_Hello World_', string.substring(1, string.length -1) // Hello World
