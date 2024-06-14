@@ -53,6 +53,16 @@ console.log(4 % 2) // 0
 
 substring | const string = '_Hello World_', string.substring(1, string.length -1) // Hello World
 
+#### Array methods
+
+`at` will return element by represented index
+
+```
+
+['First', 'Second'].at(-1) // 'Second'
+
+```
+
 ## JS tasks!
 
 #### Palindrome
