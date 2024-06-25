@@ -63,6 +63,14 @@ substring | const string = '_Hello World_', string.substring(1, string.length -1
 
 ```
 
+`find` will return first element by represented condition
+
+```
+
+[1, 2, 3, 7, 4, 5].find((item) => item >= 5) // 7
+
+```
+
 ## JS tasks!
 
 #### Palindrome
