@@ -49,6 +49,10 @@ console.log(5 % 2) // 1
 console.log(4 % 2) // 0
 ```
 
+#### Element methods
+
+`scrollTo(0, 0)` will scroll to the represented coordinates (0, 0)
+
 #### String methods
 
 substring | const string = '_Hello World_', string.substring(1, string.length -1) // Hello World
