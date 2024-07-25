@@ -127,9 +127,11 @@ testBook.pages = 200; // Cannot assign to 'pages' because it is a read-only prop
 ```
 #### Array types
 
+```
 const arr: Array<number> = [1, 2, 3];
 
 const arr: string[] = ['test', 'string'];
+```
 
 #### Function type
 
