@@ -57,6 +57,12 @@ console.log(4 % 2) // 0
 
 substring | const string = '_Hello World_', string.substring(1, string.length -1) // Hello World
 
+`split` will return an array of new strings by argument
+
+```
+'Hello, World, Test'.split(',') // ["Hello", " World", " Test"]
+```
+
 #### Array methods
 
 `at` will return element by represented index
