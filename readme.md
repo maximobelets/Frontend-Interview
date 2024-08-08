@@ -81,6 +81,16 @@ substring | const string = '_Hello World_', string.substring(1, string.length -1
 
 ```
 
+`join` will return a new string by represented condition
+
+```
+
+const arr = ['One', 'Two', 'Three'].join(' ') // 'One Two Three'
+
+console.log(arr.join(' '));
+
+```
+
 ## JS tasks!
 
 #### Palindrome
