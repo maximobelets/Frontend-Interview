@@ -63,6 +63,12 @@ substring | const string = '_Hello World_', string.substring(1, string.length -1
 'Hello, World, Test'.split(',') // ["Hello", " World", " Test"]
 ```
 
+`slice` will return a new part of string by represented position
+
+```
+'Hello, World'.slice(0, 5) // 'Hello'
+```
+
 #### Array methods
 
 `at` will return element by represented index
