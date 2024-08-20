@@ -55,7 +55,7 @@ console.log(4 % 2) // 0
 
 #### String methods
 
-substring | const string = '_Hello World_', string.substring(1, string.length -1) // Hello World
+`substring` const string = '_Hello World_', string.substring(1, string.length -1) // Hello World
 
 `split` will return an array of new strings by argument
 
