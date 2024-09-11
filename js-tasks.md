@@ -1,5 +1,14 @@
 ## JS tasks!
 
+#### Sort an array of numbers in ascending order
+
+```
+const arr = [10, 7, 3, 1]
+
+arr.sort((a, b) => a -b) // [1, 3, 7, 10]
+```
+
+
 #### Palindrome
 
 ```
