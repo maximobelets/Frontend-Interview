@@ -17,6 +17,10 @@ console.log(4 % 2) // 0
 
 `scrollTo(0, 0)` will scroll to the represented coordinates (0, 0)
 
+#### Number methods
+
+`number.toLocaleString()` will return a number represented by locale, without any argument will return a number separated by comma
+
 #### String methods
 
 `substring` const string = '_Hello World_', string.substring(1, string.length -1) // Hello World
