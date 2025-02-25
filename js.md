@@ -55,6 +55,14 @@ console.log(4 % 2) // 0
 
 ```
 
+`findIndex` will return index by represented condition
+
+```
+
+[1, 2, 3, 7, 4, 5].findIndex((item) => item === 3) // 2
+
+```
+
 `join` will return a new string by represented condition
 
 ```
