@@ -72,3 +72,20 @@ const arr = ['One', 'Two', 'Three'].join(' ') // 'One Two Three'
 console.log(arr.join(' '));
 
 ```
+
+#### Loops
+
+`for` will loop through a block of code by presented number condition
+
+```
+
+for (let i = 0; i <= 3; i++) {
+  console.log(i)
+}
+
+// 0
+// 1
+// 2
+// 3
+
+```
