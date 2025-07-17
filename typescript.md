@@ -59,6 +59,18 @@ const developer: IDeveloper = {
 console.log(developer) // {role: "developer", language: "ts"}
 
 ```
+#### keyof
+
+```
+
+type Car = {
+    model: string;
+    year: number;
+}
+
+type CarKeys = keyof Car; // ("model" | "year")
+
+```
 
 #### How to unite types
 
