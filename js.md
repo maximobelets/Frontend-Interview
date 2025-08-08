@@ -13,6 +13,17 @@ console.log(5 % 2) // 1
 console.log(4 % 2) // 0
 ```
 
+#### Object methods
+
+```
+const car = {
+    model: 'TEST_CAR',
+    year: 1994,
+}
+```
+
+`car.hasOwnProperty('model')` checks if there is a property in the object // true
+
 #### Element methods
 
 `scrollTo(0, 0)` will scroll to the represented coordinates (0, 0)
