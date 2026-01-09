@@ -153,5 +153,3 @@ interface ICar {
 
 type PartialCar = Required<ICar>;
 ```
-
-```
