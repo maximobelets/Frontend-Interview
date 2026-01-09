@@ -98,12 +98,12 @@ const genericFunc = <T>(data: T): T => {
 
 genericFunc<number>(123)
 
-interface ICar<M, Y> {
+interface Car<M, Y> {
     model: M,
     year: Y,
 }
 
-const testCar: ICar<string, number> = {
+const testCar: Car<string, number> = {
     model: 'TestCar',
     year: 1994,
 }
@@ -112,44 +112,44 @@ const testCar: ICar<string, number> = {
 
 #### Utility Types
 
-### Omit, Pick, Record
+#### Omit, Pick, Record
 
 Let's create a simple interface for car
 
 ```
-interface ICar {
+interface Car {
     model: string,
     year: number,
     isNewCar: boolean,
 }
 ```
 
-Let's pick only model from ICar
+Let's pick only __model__ from __Car__
 
 ```
-type ICarModel = Pick<ICar, 'model'>;
+type CarModel = Pick<Car, 'model'>;
 ```
 
-Let's remove isNewCar from ICar
+Let's remove __isNewCar__ from __Car__
 
 ```
-type ICarModel = Omit<ICar, 'isNewCar'>;
+type CarModel = Omit<Car, 'isNewCar'>;
 ```
 
 Let's make all keys are optional
 
 ```
-type PartialCar = Partial<ICar>;
+type PartialCar = Partial<Car>;
 ```
 
 Let's make all keys are required
 
 ```
-interface ICar {
+interface Car {
     model: string,
     year: number,
     isNewCar?: boolean,
 }
 
-type PartialCar = Required<ICar>;
+type PartialCar = Required<Car>;
 ```
