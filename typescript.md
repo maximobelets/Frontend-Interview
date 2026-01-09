@@ -114,31 +114,44 @@ const testCar: ICar<string, number> = {
 
 ### Omit, Pick, Record
 
-```
+Let's create a simple interface for car
 
+```
 interface ICar {
     model: string,
     year: number,
     isNewCar: boolean,
 }
+```
 
-interface ITestCar extends Omit<ICar, 'isNewCar'> {}
+Let's pick only model from ICar
 
-interface ICarModel extends Pick<ICar, 'model'> {}
+```
+type ICarModel = Pick<ICar, 'model'>;
+```
 
-interface ICarModel extends Partial<ICar> {} // To make all types optional
+Let's remove isNewCar from ICar
 
-interface ICarModel extends Required<ICar> {} // To make all types required
+```
+type ICarModel = Omit<ICar, 'isNewCar'>;
+```
 
-type TypeTestCarRecord = Record<'model' | 'year', string | number>
+Let's make all keys are optional
 
-const car: ITestCar = {
-    model: 'testCar',
-    year: 1994,
+```
+type PartialCar = Partial<ICar>;
+```
+
+Let's make all keys are required
+
+```
+interface ICar {
+    model: string,
+    year: number,
+    isNewCar?: boolean,
 }
 
-const car: ICarModel = {
-    model: 'testCar',
-}
+type PartialCar = Required<ICar>;
+```
 
 ```
