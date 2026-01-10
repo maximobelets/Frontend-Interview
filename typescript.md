@@ -153,3 +153,22 @@ interface Car {
 
 type PartialCar = Required<Car>;
 ```
+
+Let's create an object with key and value presented by __<K, T>__
+
+```
+type carNames = 'sportCar' | 'truck';
+
+interface Car {
+    model: string,
+    year: number,
+    isNewCar?: boolean,
+}
+
+type TypeCarRecord = Record<carNames, Car>
+
+const Cars: TypeCarRecord = {
+    sportCar: { model: 'sport', year: 2026, isNewCar: true },
+    truck: { model: 'truck', year: 1994 },
+}
+```
