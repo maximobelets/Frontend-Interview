@@ -172,3 +172,19 @@ const Cars: TypeCarRecord = {
     truck: { model: 'truck', year: 1994 },
 }
 ```
+#### ReturnType
+
+Let's create the type for dynamic result of function
+
+```
+
+function createNewCar(model: string, year: number, color: string) {
+    return {
+        model: model,
+        year: year,
+        color: color,
+        isNewCar: true,
+    }
+}
+
+type NewCar = ReturnType<typeof createNewCar>
