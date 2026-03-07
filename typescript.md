@@ -177,7 +177,6 @@ const Cars: TypeCarRecord = {
 Let's create the type for dynamic result of function
 
 ```
-
 function createNewCar(model: string, year: number, color: string) {
     return {
         model: model,
