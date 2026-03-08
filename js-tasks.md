@@ -8,7 +8,6 @@ const arr = [10, 7, 3, 1]
 arr.sort((a, b) => a -b) // [1, 3, 7, 10]
 ```
 
-
 #### Palindrome
 
 ```
@@ -21,6 +20,8 @@ checkPalindrome('level') // true
 
 ```
 const removeDuplicates = (arr) => arr.filter((item, index) => arr.indexOf(item) === index);
+
+const uniqArray = [...new Set(['A', 'B', 'C', 'A'])];
 
 removeDuplicates(['A', 'B', 'C', 'A']) // ['A', 'B', 'C']
 ```
