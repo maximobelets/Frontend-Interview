@@ -61,8 +61,9 @@ console.log(developer) // {role: "developer", language: "ts"}
 ```
 #### keyof
 
-```
+keyof T will return all keys of presented object
 
+```
 type Car = {
     model: string;
     year: number;
